@@ -24,6 +24,10 @@
         <a href="package.php">Package</a>
         <a href="book.php">Book</a>
     </nav>
+
+    <div id="menu-btn" class="fas fa-bars">
+        
+    </div>
 </section>
 
 </html>
