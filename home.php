@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- header section -->
+    <!-- header -->
     <section class="header">
         <a href="home.php" class="logo">Travel</a>
 
@@ -26,6 +26,42 @@
         <i id="menu-btn" class="fas fa-bars"></i>
     </section>
 
+    <!--services -->
+    <section class="services">
+        <h1 class="heading-title"> Our Services</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class='fa-solid fa-mountain-sun'></i>
+                <h3>Adventures</h3>
+            </div>
+
+            <div class="box">
+                <i class='fas fa-map-marked-alt'></i>
+                <h3>Guide</h3>
+            </div>
+
+            <div class="box">
+                <i class='fa fa-gears'></i>
+                <h3>trekking</h3>
+            </div>
+            <div class="box">
+                <i class='fa-solid fa-fire-flame-curved'></i>
+                <h3>Camp fire</h3>
+            </div>
+
+            <div class="box">
+                <i class='fa-solid fa-road-circle-xmark'></i>
+                <h3>off road</h3>
+            </div>
+
+            <div class="box">
+                <i class='fas fa-campground'></i>
+                <h3>camping</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
     <section class="footer">
         <div class="box-container">
             <div class="box">
@@ -63,6 +99,7 @@
 
         <div class="credit">Created by <span>Ameynuddin</span> | All Rights Reserved | 2024</div>
     </section>
+
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
