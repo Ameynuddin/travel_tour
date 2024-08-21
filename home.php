@@ -30,38 +30,38 @@
         <div class="box-container">
             <div class="box">
                 <h3>Quick Links</h3>
-                <a href="home.php"><i class="fas fa-angle-right"> Home</i></a>
-                <a href="about.php"><i class="fas fa-angle-right"> About</i></a>
-                <a href="package.php"><i class="fas fa-angle-right"> Package</i></a>
-                <a href="book.php"><i class="fas fa-angle-right"> Book</i></a>
+                <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
+                <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
+                <a href="package.php"><i class="fas fa-angle-right"></i> Package</a>
+                <a href="book.php"><i class="fas fa-angle-right"></i> Book</a>
             </div>
 
             <div class="box">
                 <h3>Extra Links</h3>
-                <a href="#"><i class="fas fa-angle-right"> Ask Questions</i></a>
-                <a href="#"><i class="fas fa-angle-right"> About Us</i></a>
-                <a href="#"><i class="fas fa-angle-right"> Privacy Policy</i></a>
-                <a href="#"><i class="fas fa-angle-right"> Terms of Use</i></a>
+                <a href="#"><i class="fas fa-angle-right"></i> Ask Questions</a>
+                <a href="#"><i class="fas fa-angle-right"></i> About Us</a>
+                <a href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i> Terms of Use></a>
             </div>
 
             <div class="box">
                 <h3>Contact Info</h3>
-                <a href="#"><i class="fas fa-phone"> +1234556789</i></a>
-                <a href="#"><i class="fas fa-phone"> +0123456789</i></a>
-                <a href="#"><i class="fas fa-envelope"> Privacy Policy</i></a>
-                <a href="#"><i class="fas fa-map"> Sabah, Malaysia</i></a>
+                <a href="#"><i class="fas fa-phone"></i> +1234556789></a>
+                <a href="#"><i class="fas fa-phone"></i> +0123456789</a>
+                <a href="#"><i class="fas fa-envelope"></i> Privacy Policy</a>
+                <a href="#"><i class="fas fa-map"></i> Sabah, Malaysia</a>
             </div>
 
             <div class="box">
                 <h3>Follow Us</h3>
-                <a href="#"><i class="fab fa-facebook"> Facebook</i></a>
-                <a href="#"><i class="fab fa-twitter"> Twitter</i></a>
-                <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
-                <a href="#"><i class="fab fa-linkedin"> LinkedIn</i></a>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
 
-
+        <div class="credit">Created by <span>Ameynuddin</span> | All Rights Reserved | 2024</div>
     </section>
 
     <script src="js/script.js"></script>
