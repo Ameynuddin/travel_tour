@@ -11,23 +11,23 @@
 </head>
 
 <body>
+
+    <!-- header section -->
+    <section class="header">
+        <a href="home.php" class="logo">Travel</a>
+
+        <nav class="navbar">
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="package.php">Package</a>
+            <a href="book.php">Book</a>
+        </nav>
+
+        <i id="menu-btn" class="fas fa-bars"></i>
+    </section>
+    
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
-<!-- header section -->
-<section class="header">
-    <a href="home.php" class="logo">Travel</a>
-
-    <nav class="navbar">
-        <a href="home.php">Home</a>
-        <a href="about.php">About</a>
-        <a href="package.php">Package</a>
-        <a href="book.php">Book</a>
-    </nav>
-
-    <div id="menu-btn" class="fas fa-bars">
-        
-    </div>
-</section>
 
 </html>

@@ -97,9 +97,15 @@ section {
 }
 
 @media (max-width: 768px) {
-    #menu-btn {
-        display: inline-block;
-    }
+  #menu-btn {
+    display: inline-block;
+    transition: 0.2s linear;
+  }
+
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+
   .header .navbar {
     position: absolute;
     top: 99%;
@@ -108,12 +114,15 @@ section {
     background-color: var(--white);
     border-top: var(--border);
     padding: 2rem;
-    clip-path: polygon(50% 0, 0 0, 100% 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.2s linear;
   }
 
-  .header .navbar.active{
+  .header .navbar.active {
+    /* The rest of the styling, such as colors, padding remains the same regardless of whether the .active class is applied. */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
+
   .header .navbar a {
     display: block;
     margin: 2rem;
