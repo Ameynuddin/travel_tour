@@ -50,7 +50,7 @@
                         <h3>travel around the world</h3>
                         <a href="package.php" class="btn">discover more</a>
                     </div>
-                </div>             
+                </div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -92,6 +92,19 @@
         </div>
     </section>
 
+    <!-- home-about -->
+    <section class="home-about">
+        <div class="image"><img src="https://images.pexels.com/photos/5735895/pexels-photo-5735895.jpeg"
+                alt="Photo by Pat Whelen from Pexels"></div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, exercitationem quaerat ut fuga
+                itaque eum velit natus tenetur est, eos expedita modi distinctio quas iure rem eius! Corrupti, sed
+                quasi?</p>
+            <a href="about.php" class="btn">Read more</a>
+        </div>
+    </section>
     <!-- footer -->
     <section class="footer">
         <div class="box-container">
