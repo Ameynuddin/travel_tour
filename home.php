@@ -105,6 +105,50 @@
             <a href="about.php" class="btn">Read more</a>
         </div>
     </section>
+
+    <!-- home-packages -->
+    <section class="home-packages">
+        <h1 class="heading-title">Our Packages</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1690667726912-84dbc2b455cd?q=80&w=1145&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1671364978178-002a8dc97362?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1637125716241-3549f8c59e6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure and tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+        <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+    </section>
+
     <!-- footer -->
     <section class="footer">
         <div class="box-container">
@@ -143,7 +187,6 @@
 
         <div class="credit">Created by <span>Ameynuddin</span> | All Rights Reserved | 2024</div>
     </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
