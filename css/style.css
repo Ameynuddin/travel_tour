@@ -322,6 +322,27 @@ section {
   text-align: center;
 }
 
+.home-offer{
+    text-align: center;
+}
+
+.home-offer .content{
+   max-width: 70rem;
+   margin: 0 auto;
+}
+
+.home-offer .content h3{
+    text-transform: uppercase;
+    font-size: 6rem;
+}
+
+.home-offer .content p{
+    font-size: 2rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 2rem 0 1rem;
+}
+
 /* media queries */
 @media (max-width: 1200px) {
   section {

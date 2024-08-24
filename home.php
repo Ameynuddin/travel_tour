@@ -149,7 +149,16 @@
         <div class="load-more"><a href="package.php" class="btn">load more</a></div>
     </section>
 
-    <!-- footer -->
+    <!-- home-offer -->
+     <section class="home-offer">
+        <div class="content">
+            <h3>up to 50% off!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nulla quo necessitatibus quas beatae, ab itaque quia ea debitis voluptas provident, perspiciatis quisquam, sit saepe? Quaerat ducimus consequatur molestiae quod.</p>
+            <a href="book.php" class="btn">Book now</a>
+        </div>
+     </section>
+
+     <!-- footer -->
     <section class="footer">
         <div class="box-container">
             <div class="box">
