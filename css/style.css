@@ -360,54 +360,100 @@ section {
 
 /* about */
 .about {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
 }
 
-.about .image{
-    flex: 1 1 41rem;
+.about .image {
+  flex: 1 1 41rem;
 }
 
-.about .image img{
-    width: 100%;
+.about .image img {
+  width: 100%;
 }
 
-.about .content{
-    flex: 1 1 41rem;
+.about .content {
+  flex: 1 1 41rem;
 }
 
-.about .content h3{
-    font-size: 3rem;
+.about .content h3 {
+  font-size: 3rem;
 }
 
-.about .content p{
-    font-size: 2rem;
-    color: var(--light-black);
+.about .content p {
+  font-size: 2rem;
+  color: var(--light-black);
 }
 
 .about .content .icons-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .about .content .icons-container .icons {
-    padding: 2rem;
-    font-size: 2rem;
-    background: var(--light-bg);
-    cursor: pointer;
-    flex: 1 1 16rem;
-    text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  background: var(--light-bg);
+  cursor: pointer;
+  flex: 1 1 16rem;
+  text-align: center;
 }
 
 .about .content .icons-container .icons i {
-    color: var(--main-color);
-    font-size: 4rem;
-    display: block;
-    margin-bottom: 2rem;
+  color: var(--main-color);
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.reviews {
+  background: var(--light-bg);
+}
+
+.reviews .slide {
+  padding: 2rem;
+  border: var(--border);
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  border-radius: 1rem;
+  /* user-select: none; */
+}
+
+.reviews .slide img {
+  width: 10rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.reviews .slide .stars {
+  padding-bottom: 1rem;
+}
+
+.reviews .slide .stars i {
+  color: yellow;
+  font-size: 2rem;
+}
+
+.reviews .slide h3 {
+  font-size: 2rem;
+}
+
+.reviews .slide span {
+  color: var(--main-color);
+  font-size: 1.5rem;
+  display: block;
+}
+
+.reviews .slide p {
+  color: var(--light-black);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
 }
 
 /* media queries */
