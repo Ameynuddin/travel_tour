@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- header -->
+    <!-- navbar -->
     <section class="header">
         <a href="home.php" class="logo">Travel</a>
 
@@ -26,7 +26,7 @@
         <i id="menu-btn" class="fas fa-bars"></i>
     </section>
 
-    <!-- home content-->
+    <!-- content-->
     <section class="home">
         <div class="swiper home-slider">
             <div class="swiper-wrapper">

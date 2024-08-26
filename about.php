@@ -11,8 +11,7 @@
 </head>
 
 <body>
-
-    <!-- header section -->
+    <!-- navbar section -->
     <section class="header">
         <a href="home.php" class="logo">Travel</a>
 
@@ -26,11 +25,86 @@
         <i id="menu-btn" class="fas fa-bars"></i>
     </section>
 
-    <!-- content -->
+    <!-- heading -->
     <div class="heading" style="background:url(images/header-bg-1.jpg) no-repeat">
         <h1>About Us</h1>
+
     </div>
 
+    <!-- about -->
+    <section class="about">
+        <div class="image"><img
+                src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""></div>
+
+        <div class="content">
+            <h3>why choose us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque saepe ea facilis esse quis sunt magni
+                error accusantium blanditiis, repellat, delectus temporibus rerum nemo porro nobis fuga natus ullam
+                ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium rerum asperiores?</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <span> top destinations</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span> affordable price</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span> guide service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews -->
+     <section class="reviews">
+        <div class="reviews-slider">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis maiores blanditiis quibusdam ducimus aut consequatur? Quas odit voluptatem id, accusamus eaque magnam aliquid cum reiciendis inventore, assumenda quibusdam architecto in dolore rem veniam vel vitae. Rerum modi fugit ipsam ab!</p>
+                <h3>john doe</h3>
+                <span>traveller</span>
+                <img src="https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis maiores blanditiis quibusdam ducimus aut consequatur? Quas odit voluptatem id, accusamus eaque magnam aliquid cum reiciendis inventore, assumenda quibusdam architecto in dolore rem veniam vel vitae. Rerum modi fugit ipsam ab!</p>
+                <h3>john doe</h3>
+                <span>traveller</span>
+                <img src="https://images.pexels.com/photos/26745711/pexels-photo-26745711/free-photo-of-man-in-shirt-standing-with-camera-under-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis maiores blanditiis quibusdam ducimus aut consequatur? Quas odit voluptatem id, accusamus eaque magnam aliquid cum reiciendis inventore, assumenda quibusdam architecto in dolore rem veniam vel vitae. Rerum modi fugit ipsam ab!</p>
+                <h3>john doe</h3>
+                <span>traveller</span>
+                <img src="https://images.pexels.com/photos/27670175/pexels-photo-27670175/free-photo-of-a-man-in-sunglasses-and-a-hat-sitting-in-the-back-of-a-red-truck.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- footer -->
     <section class="footer">
         <div class="box-container">
             <div class="box">
