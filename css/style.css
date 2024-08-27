@@ -476,7 +476,7 @@ section {
   display: none;
 }
 
-.packages .box-container .box:nth-child(-n+2) {
+.packages .box-container .box:nth-child(-n + 2) {
   display: inline-block;
 }
 
@@ -512,6 +512,44 @@ section {
 .packages .load-more {
   margin-top: 2rem;
   text-align: center;
+}
+
+/* booking */
+.booking .book-form {
+  background-color: var(--light-bg);
+  padding: 2rem;
+}
+
+.booking .book-form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.booking .book-form .inputBox {
+  flex: 1 1 41rem;
+}
+.booking .book-form .inputBox span {
+  font-size: 2rem;
+}
+
+.booking .book-form .inputBox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  color: var(--light-black);
+  font-size: 1.8rem;
+  border: var(--border);
+  margin-top: 1rem;
+}
+
+.booking .book-form .inputBox input:focus {
+  background: var(--light-black);
+  color: var(--white);
+}
+
+.booking .book-form .inputBox input:focus::placeholder {
+  background: var(--light-black);
+  color: var(--light-white);
 }
 
 /* media queries */
