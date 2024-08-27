@@ -30,19 +30,23 @@ var swiper = new Swiper(".reviews-slider", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,
             spaceBetween: 20,
-          },
-          768: {
+        },
+        768: {
             slidesPerView: 2,
             spaceBetween: 40,
-          },
-          1024: {
+        },
+        1024: {
             slidesPerView: 3,
             spaceBetween: 50,
-          },
+        },
     },
 });
 

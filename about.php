@@ -127,7 +127,7 @@
                         ab!"</p>
                     <h3>john doe</h3>
                     <span>traveller</span>
-                    <img src="https://images.pexels.com/photos/26745711/pexels-photo-26745711/free-photo-of-man-in-shirt-standing-with-camera-under-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    <img src="https://images.pexels.com/photos/3579181/pexels-photo-3579181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
                 </div>
                 <div class="swiper-slide slide">
@@ -143,10 +143,11 @@
                         ab!"</p>
                     <h3>john doe</h3>
                     <span>traveller</span>
-                    <img src="https://images.pexels.com/photos/27670175/pexels-photo-27670175/free-photo-of-a-man-in-sunglasses-and-a-hat-sitting-in-the-back-of-a-red-truck.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    <img src="https://images.pexels.com/photos/2167437/pexels-photo-2167437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
     <!-- footer -->
