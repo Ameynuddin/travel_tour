@@ -34,7 +34,7 @@
     <!-- booking -->
     <section class="booking">
         <h1 class="heading-title">Book your trip!</h1>
-        <form action="" class="book-form">
+        <form action="book_form.php" method="POST" class="book-form">
             <div class="flex">
                 <div class="inputBox">
                     <span>name : </span>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="inputBox">
                     <span>number of pax : </span>
-                    <input type="number" placeholder="enter place to visit" name="pax">
+                    <input type="number" placeholder="enter number of guests" name="pax">
                 </div>
                 <div class="inputBox">
                     <span>arrival date : </span>
