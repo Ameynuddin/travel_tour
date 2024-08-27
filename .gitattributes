@@ -1,0 +1,7 @@
+# Set the language of specific files
+*.php linguist-language=PHP
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Exclude files or directories
+*.hack linguist-vendored
