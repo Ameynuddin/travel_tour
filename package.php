@@ -68,8 +68,41 @@
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/12438788/pexels-photo-12438788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/1050597/pexels-photo-1050597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://sabahtravel-assets.s3.amazonaws.com/images/20230116-paved-20200214-aoy0q-mabul-water-bungalow-ch"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
         </div>
-        <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+        <div class="load-more"><span class="btn">load more</span></div>
     </section>
 
     <section class="footer">

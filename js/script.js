@@ -1,3 +1,4 @@
+// home page
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".header .navbar");
 
@@ -20,6 +21,7 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
+// about page
 var swiper = new Swiper(".reviews-slider", {
     loop: true,
     slidesPerView: 1,
@@ -50,11 +52,19 @@ var swiper = new Swiper(".reviews-slider", {
     },
 });
 
-// var swiper = new Swiper(".reviews-slider", {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//   });
+// packages page
+let loadMoreBtn = document.querySelector(".packages .load-more .btn");
+let currentItem = 2;
+
+loadMoreBtn.onclick = () => {
+    let boxes = [...document.querySelectorAll('.packages .box-container .box')];
+    for (let i = currentItem; i < 2 + currentItem; i++) {
+        boxes[i].style.display = "inline-block";
+    };
+
+    currentItem += 2;
+    
+    if (currentItem >= boxes.length) {
+        loadMoreBtn.style.display = "none";
+    }
+}
