@@ -5,7 +5,7 @@ $password = "";
 $database = "booking";
 $table = "book_form";
 
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if (!$conn) {
@@ -13,16 +13,18 @@ if (!$conn) {
 }
 
 if (isset($_POST['booking'])) {
-
+    // ensure all fields are completely filled
     if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['address']) && !empty($_POST['destination']) && !empty($_POST['pax']) && !empty($_POST['arrival']) && !empty($_POST['departure'])) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $address = $_POST['address'];
-        $destination = $_POST['destination'];
-        $pax = $_POST['pax'];
-        $arrival = $_POST['arrival'];
-        $departure = $_POST['departure'];
+
+        // apply sanitization and validation of input
+        $name = $conn->real_escape_string($_POST['name']);
+        $email = $conn->real_escape_string($_POST['email']);
+        $phone = $conn->real_escape_string($_POST['phone']);
+        $address = $conn->real_escape_string($_POST['address']);
+        $destination = $conn->real_escape_string($_POST['destination']);
+        $pax = $conn->real_escape_string($_POST['pax']);
+        $arrival = $conn->real_escape_string($_POST['arrival']);
+        $departure = $conn->real_escape_string($_POST['departure']);
     } else {
         header('Location: book.php');
     }
@@ -38,6 +40,7 @@ if (isset($_POST['booking'])) {
         echo 'Something went wrong! Try again later. Error: ' . $stmt->error;
     }
 
+    // consistent use of object-oriented style
     $stmt->close();
 
 } else {
@@ -45,5 +48,3 @@ if (isset($_POST['booking'])) {
 }
 
 $conn->close();
-
-?>
