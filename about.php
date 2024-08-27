@@ -28,7 +28,6 @@
     <!-- heading -->
     <div class="heading" style="background:url(images/header-bg-1.jpg) no-repeat">
         <h1>About Us</h1>
-
     </div>
 
     <!-- about -->
