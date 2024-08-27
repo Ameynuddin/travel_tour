@@ -619,4 +619,7 @@ section {
   .heading-title {
     font-size: 4rem;
   }
+  .heading h1 {
+    font-size: 7rem;
+  }
 }
