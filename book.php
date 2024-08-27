@@ -54,7 +54,7 @@
                 </div>
                 <div class="inputBox">
                     <span>Destination: </span>
-                    <input type="text" placeholder="enter place to visit" name="location">
+                    <input type="text" placeholder="enter place to visit" name="destination">
                 </div>
                 <div class="inputBox">
                     <span>number of pax : </span>
