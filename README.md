@@ -65,15 +65,32 @@ This is a Travel & Tour web application that allows users to book trips. The app
    $table = "YOUR_TABLE_NAME";
    ```
 
-## Usage
+## Usage/Screen
 
-- **Access the Booking Form**
+1. **Home Page:**
+ 
+   ![homepage](images/output/homepage.png)
+   
+      
+3. **About Page:**
+   
+   ![about](images/output/about.png)
 
-  Navigate to `book_form.php` to view and use the booking form.
+      
+4. **Packages Page:**
+   
+   ![packages](images/output/packages.png)
+   
+   
+6. **Booking Page:**
+   - **Access the Booking Form**
+      Navigate to `book_form.php` to view and use the booking form.
 
-- **Submit a Booking**
+   - **Submit a Booking**
+     Fill out the form with your details and click "Submit". The data will be processed and stored in the MySQL database.
+     
+    ![booking](images/output/booking.png)
 
-  Fill out the form with your details and click "Submit". The data will be processed and stored in the database.
 
 ## Contributing
 
